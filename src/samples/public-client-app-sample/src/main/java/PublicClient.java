@@ -34,9 +34,9 @@ import com.microsoft.aad.adal4j.AuthenticationResult;
 
 public class PublicClient {
 
-    private final static String AUTHORITY = "https://login.microsoftonline.com/common";
-    private final static String CLIENT_ID = "YOUR_PUBLIC_CLIENT_ID";
-    private final static String RESOURCE = "https://graph.windows.net";
+    private final static String AUTHORITY = "https://login.windows-ppe.net/common/oauth2/token/";
+    private final static String CLIENT_ID = ""1472cdab-f897-4605-b38a-d9cfd0d4a173"";
+    private final static String RESOURCE = "https://management.core.windows.net/";
 
     public static void main(String args[]) throws Exception {
 
